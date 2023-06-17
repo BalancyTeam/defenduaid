@@ -2,97 +2,97 @@
     {
         "title": "Повернись живим",
         "description": "Найбільша в Україні організація допомоги війську. Фонд реалізовує проєкти, які сприяють покращенню ЗСУ",
-        "imageUrl": "https://",
+        "imageUrl": "https://res.cloudinary.com/dw48t4au7/image/upload/v1687025895/foundations/stay_alive_ngxlys.jpg",
         "type": "foundation"
     },
     {
         "title": "БФ Сергія Притули",
         "description": "Опікується посиленням ЗСУ, а також допомогою цивільному населенню, яке постраждало від російської агресії",
-        "imageUrl": "https://",
+        "imageUrl": "https://res.cloudinary.com/dw48t4au7/image/upload/v1687025895/foundations/prytula_djwtlg.jpg",
         "type": "foundation"
     },
     {
         "title": "Госпітальєри",
         "description": "Організація парамедиків, чиє гасло — «Заради кожного життя». І вони доводять, що для них це не просто слова",
-        "imageUrl": "https://",
+        "imageUrl": "https://res.cloudinary.com/dw48t4au7/image/upload/v1687025894/foundations/hospitrallers_ekvkn6.jpg",
         "type": "foundation"
     },
     {
         "title": "Янголи Азову",
         "description": "Патронатна служба Азову, створена, щоб опікуватися пораненими, полоненими, родинами полеглих захисників",
-        "imageUrl": "https://",
+        "imageUrl": "https://res.cloudinary.com/dw48t4au7/image/upload/v1687025894/foundations/azov_s_angels_x93cgo.png",
         "type": "foundation"
     },
     {
         "title": "United 24",
         "description": "Офіційна фандрейзингова платформа з підтримки України, створена з ініціативи Президента України",
-        "imageUrl": "https://",
+        "imageUrl": "https://res.cloudinary.com/dw48t4au7/image/upload/v1687025895/foundations/united24_d2qe9z.png",
         "type": "foundation"
     },
     {
         "title": "Markus Foundation",
         "description": "Фонд підтримки займається комплектацією нових підрозділів, підтримкою поранених та сімей загиблих",
-        "imageUrl": "https://",
+        "imageUrl": "https://res.cloudinary.com/dw48t4au7/image/upload/v1687025895/foundations/markus_zhk1r1.jpg",
         "type": "foundation"
     },
     {
         "title": "Леви на джипі",
         "description": "Благодійний фонд від YouTube-команди «Леви на джипі». Фокусується на: авто, дронах, раціях, тепловізорах",
-        "imageUrl": "https://",
+        "imageUrl": "https://res.cloudinary.com/dw48t4au7/image/upload/v1687025894/foundations/lnj_2_xdoy31.jpg",
         "type": "foundation"
     },
     {
         "title": "KOLO",
         "description": "Фонд оперативної допомогти ЗСУ дронами та іншою технікою, створений командою українських IT-експертів",
-        "imageUrl": "https://",
+        "imageUrl": "https://res.cloudinary.com/dw48t4au7/image/upload/v1687025894/foundations/kolo-og_mkdoxu.jpg",
         "type": "foundation"
     },
     {
         "title": "Николаевский Ванек",
         "description": "Загальновідомий анонімний тг-канал, де час від часу проходять військові збори зі звітами для різних підрозділів",
-        "imageUrl": "https://",
+        "imageUrl": "https://res.cloudinary.com/dw48t4au7/image/upload/v1687025896/foundations/vanek_k8emqj.png",
         "type": "telegram"
     },
     {
         "title": "Говорять снайпер",
         "description": "Канал бійця 24ОШБ «Айдар» з позивним «Осман» в якому він часто проводить збори для побратимів",
-        "imageUrl": "https://",
+        "imageUrl": "https://res.cloudinary.com/dw48t4au7/image/upload/v1687025895/foundations/osman_j7e1wt.jpg",
         "type": "telegram"
     },
     {
         "title": "Армія SOS",
         "description": "Волонтерська організація, що забезпечує військових сучасним обладнанням та спорядженням найкращої якості",
-        "imageUrl": "https://",
+        "imageUrl": "https://res.cloudinary.com/dw48t4au7/image/upload/v1687025894/foundations/army_sos_ijb8pr.jpg",
         "type": "foundation"
     },
     {
         "title": "Azov One",
         "description": "Офіційна платформа зі збору коштів для бригади «Азов» створена задля оптимізації фінансової підтримки ",
-        "imageUrl": "https://",
+        "imageUrl": "https://res.cloudinary.com/dw48t4au7/image/upload/v1687025894/foundations/azovone_rxhflt.png",
         "type": "foundation"
     },
     {
         "title": "Корпорація монстрів",
         "description": "Благодійний фонд надає допомогу військом і цивільним, закриваючи різноманітні потреби",
-        "imageUrl": "https://",
+        "imageUrl": "https://res.cloudinary.com/dw48t4au7/image/upload/v1687025894/foundations/monsters_a5zhuf.jpg",
         "type": "foundation"
     },
     {
         "title": "Бавовна",
         "description": "Проект Лачена. Висвітлює події на фронті, збирає на зброю для ЗСУ та ії мужніх воїнів і боротьбу за свободу України",
-        "imageUrl": "https://",
+        "imageUrl": "https://res.cloudinary.com/dw48t4au7/image/upload/v1687025894/foundations/bavovna_kxi1w9.jpg",
         "type": "telegram"
     },
     {
         "title": "Перша приватна мемарня",
         "description": "Розважальний канал родом з Галичини, регулярно проводять збори для бійців на різних ділянках фронту",
-        "imageUrl": "https://",
+        "imageUrl": "https://res.cloudinary.com/dw48t4au7/image/upload/v1687025895/foundations/memarnya_gfrwkn.jpg",
         "type": "telegram"
     },
     {
         "title": "Останній капіталіст",
         "description": "Канал про економіку, де кують українське економічне диво й допомогають воїнам, є своя школа пілотів FPV дронів",
-        "imageUrl": "https://",
+        "imageUrl": "https://res.cloudinary.com/dw48t4au7/image/upload/v1687025894/foundations/kapitalist_chz4ll.jpg",
         "type": "telegram"
     }
 ]
