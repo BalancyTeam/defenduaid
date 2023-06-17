@@ -1,11 +1,9 @@
+import { Container } from "./styles";
 
-
-
-export const App = () =>{
-
+export const App = () => {
   return (
-    <div>DFND</div>
-    
-  )
-}
-
+    <Container>
+      <div>DFND</div>
+    </Container>
+  );
+};
