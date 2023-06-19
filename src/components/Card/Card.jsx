@@ -6,7 +6,9 @@ import {
   CardImage,
   ImageWrapper,
   ArrowIcon,
-  Title
+  Title,
+  TelegramImage,
+  TelegramImageWrapper
 } from "./Card.styled.js";
 import checkIcon from "../../assets/icons/check.svg";
 import arrowIcon from "../../assets/icons/arrow.svg";
@@ -14,9 +16,16 @@ import arrowIcon from "../../assets/icons/arrow.svg";
 const Card = ({ data }) => {
   return (
     <CardItem>
-      <ImageWrapper>
-        <CardImage src={data.imageUrl} alt="foundation logo" />
-      </ImageWrapper>
+      {data.type === "foundation" ? (
+        <ImageWrapper>
+          <CardImage src={data.imageUrl} alt={`${data.type} logo`} />
+        </ImageWrapper>
+      ) : (
+        <TelegramImageWrapper>
+          <TelegramImage src={data.imageUrl} alt={`${data.type} logo`} />
+        </TelegramImageWrapper>
+      )}
+      
       <TitleWrapper>
         <Title>{data.title}</Title>
         <CheckIcon src={checkIcon} alt="check icon" />
