@@ -11,17 +11,17 @@ export const Container = styled.div`
   }
 
   @media ${(props) => props.theme.media.tablet} {
-    width: 688px;
+    width: 768px;
     padding: 55px 40px 32px 40px;
   }
 
   @media ${(props) => props.theme.media.tabletXl} {
-    width: 944px;
+    width: 1024px;
     padding: 55px 40px 32px 40px;
   }
 
   @media ${(props) => props.theme.media.desktop} {
-    width: 1040px;
+    width: 1280px;
     padding: 55px 120px 32px 120px;
   }
 
@@ -29,5 +29,6 @@ export const Container = styled.div`
     width: 1424px;
     padding-top: 55px;
     padding-bottom: 32px;
+    padding-inline: 0;
   }
 `;
