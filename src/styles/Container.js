@@ -6,7 +6,6 @@ export const Container = styled.div`
   margin: 0 auto;
 
   @media ${(props) => props.theme.media.phone} {
-    width: 360px;
     padding: 60px 16px 16px 16px;
   }
 
