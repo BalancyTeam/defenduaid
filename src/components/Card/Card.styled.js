@@ -19,15 +19,29 @@ export const CardItem = styled.li`
 `;
 
 export const CardImage = styled.img`
-  height: 100%;
+  height: 100%; 
   object-fit: cover;
-  border-radius: 8px 8px 0px 0px;
+ 
+`;
+
+export const TelegramImage = styled.img`
+  height: 100%;
+  object-fit: scale-down;
+  object-position: center;
+ 
 `;
 
 export const ImageWrapper = styled.div`
   height: 120px;
   min-width: 100%;
   overflow: hidden;
+  border-radius: 8px 8px 0px 0px;
+`;
+
+export const TelegramImageWrapper = styled.div`
+  height: 120px; 
+  overflow: hidden;
+  border-radius: 8px 8px 0px 0px;
 `;
 
 export const TitleWrapper = styled.div`
