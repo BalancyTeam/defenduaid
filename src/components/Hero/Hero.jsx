@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Search } from "../Search/Search";
 import {
   HeroContent,
@@ -7,6 +7,7 @@ import {
   HeroSubHeaderBold,
   HeroWrapper,
 } from "./hero.styled";
+import PropTypes from 'prop-types';
 
 export const Hero = ({ handleSearch }) => {
   return (
@@ -21,4 +22,8 @@ export const Hero = ({ handleSearch }) => {
       <Search handleSearch={(e) => handleSearch(e)} />
     </HeroWrapper>
   );
+};
+
+Hero.propTypes = {
+  handleSearch: PropTypes.func.isRequired
 };

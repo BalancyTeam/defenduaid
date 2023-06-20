@@ -1,6 +1,6 @@
-import React from "react";
 import searchIcon from "../../assets/icons/search.svg";
 import { Image, SearchInput, SearchWrapper } from "./search.styled";
+import PropTypes from 'prop-types';
 
 export const Search = ({ handleSearch }) => {
   return (
@@ -14,3 +14,9 @@ export const Search = ({ handleSearch }) => {
     </SearchWrapper>
   );
 };
+
+Search.propTypes = {
+  handleSearch: PropTypes.func.isRequired
+};
+
+
