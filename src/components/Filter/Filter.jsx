@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { FilterWrapper, TabItem } from "./filter.styled";
+import PropTypes from 'prop-types';
 
 export const Filter = ({ handleFilter }) => {
   const [activeTab, setActiveTab] = useState(0);
@@ -31,4 +32,8 @@ export const Filter = ({ handleFilter }) => {
       </TabItem>
     </FilterWrapper>
   );
+};
+
+Filter.propTypes = {
+  handleFilter: PropTypes.func.isRequired
 };

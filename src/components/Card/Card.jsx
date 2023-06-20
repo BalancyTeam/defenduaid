@@ -12,6 +12,7 @@ import {
 } from "./Card.styled.js";
 import checkIcon from "../../assets/icons/check.svg";
 import arrowIcon from "../../assets/icons/arrow.svg";
+import PropTypes from 'prop-types';
 
 const Card = ({ data }) => {
   return (
@@ -32,12 +33,23 @@ const Card = ({ data }) => {
       </TitleWrapper>
 
       <p>{data.description}</p>
-      <Button href="https://vitejs.dev" target="_blank" rel="noreferrer">
+      <Button href={data.url} target="_blank" rel="noreferrer">
         <span>Задонатити</span>
         <ArrowIcon src={arrowIcon} alt="arrow icon" />
       </Button>
     </CardItem>
   );
+};
+
+
+Card.propTypes = {
+  data: PropTypes.shape({
+    type: PropTypes.string.isRequired,
+    imageUrl: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired,
+    })
 };
 
 export default Card;

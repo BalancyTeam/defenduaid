@@ -96,6 +96,10 @@ export const Button = styled.a`
   background-color: ${(p) => p.theme.colors.primary};
   border-radius: ${(p) => p.theme.radii.medium};
   border: none;
+
+  :hover {
+    background: linear-gradient(91.66deg, #E9ACF3 14.96%, #8A56FA 92.43%, #874FF9 112.33%);
+  }
 `;
 
 export const ArrowIcon = styled.img`
