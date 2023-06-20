@@ -2,11 +2,10 @@ import styled from "styled-components";
 
 export const CardItem = styled.li`
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  flex-direction: column;
+  flex-direction: column; 
 
-  padding: ${(p) => p.theme.space[4]}px;
+  padding: 14px;
   border-radius: ${(p) => p.theme.radii.normal};
   color: ${(p) => p.theme.colors.primary};
   border: 2px solid ${(p) => p.theme.colors.border};
@@ -26,9 +25,7 @@ export const CardImage = styled.img`
 
 export const TelegramImage = styled.img`
   height: 100%;
-  object-fit: scale-down;
-  object-position: center;
- 
+  object-fit: scale-down; 
 `;
 
 export const ImageWrapper = styled.div`
@@ -39,7 +36,9 @@ export const ImageWrapper = styled.div`
 `;
 
 export const TelegramImageWrapper = styled.div`
-  height: 120px; 
+  height: 120px;
+  display :flex ;
+  margin-right: auto;
   overflow: hidden;
   border-radius: 8px 8px 0px 0px;
 `;
@@ -48,18 +47,30 @@ export const TitleWrapper = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; 
   padding-top: ${(p) => p.theme.space[5]}px;
   padding-bottom: ${(p) => p.theme.space[3]}px;
 `;
 
 export const Title = styled.p`
-  width: 80%;
+  max-width: 270px;
   font-size: ${(props) => props.theme.fontSizes.l};
   line-height: 1.45;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+
+  @media ${(props) => props.theme.media.tabletXl} {
+    max-width: 400px;
+  }
+
+  @media ${(props) => props.theme.media.desktop} {
+    max-width: 260px;
+  }
+
+  @media ${(props) => props.theme.media.desktopXl} {
+    max-width: 400px;
+  }
 `;
 
 export const CheckIcon = styled.img`
