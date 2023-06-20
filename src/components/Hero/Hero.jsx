@@ -1,8 +1,14 @@
 import React from "react";
 import { Search } from "../Search/Search";
-import { HeroContent, HeroHeader, HeroSubHeader, HeroSubHeaderBold, HeroWrapper } from "./hero.styled";
+import {
+  HeroContent,
+  HeroHeader,
+  HeroSubHeader,
+  HeroSubHeaderBold,
+  HeroWrapper,
+} from "./hero.styled";
 
-export const Hero = () => {
+export const Hero = ({ handleSearch }) => {
   return (
     <HeroWrapper>
       <HeroHeader>Спільними зусиллями до перемоги</HeroHeader>
@@ -12,7 +18,7 @@ export const Hero = () => {
           20+ перевірених фондів та telegram-каналів для донату
         </HeroSubHeader>
       </HeroContent>
-      <Search />
+      <Search handleSearch={(e) => handleSearch(e)} />
     </HeroWrapper>
   );
 };
