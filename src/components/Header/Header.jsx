@@ -1,4 +1,4 @@
-import logo from "../../logo/logo.png";
+import logo from "../../logo/logo1.png";
 import { HeaderStyle, Logo } from "./header.styled";
 import { LanguageSelect } from "./LanguageSelect/LanguageSelect";
 
