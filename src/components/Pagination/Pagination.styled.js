@@ -11,4 +11,8 @@ export const LoadMoreBtn= styled.button`
   font-weight: ${(props) => props.theme.fontWeights.medium};
   text-decoration: underline;
   cursor: pointer;
+
+  :hover, :focus {
+    color: #8148F9;
+  }
 `;
