@@ -32,14 +32,7 @@ export const FooterLogo = styled.div`
     width: 240px;
     height: 24px;
   }
-  @media screen and (min-width: 1024px) {
-    width: 240px;
-    height: 24px;
-  }
-  @media screen and (min-width: 1280px) {
-    width: 240px;
-    height: 24px;
-  }
+
   @media screen and (min-width: 1536px) {
     width: 320px;
     height: 32px;

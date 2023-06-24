@@ -22,9 +22,6 @@ export const HeaderStyle = styled.header`
     max-width: 1280px;
     margin-bottom: 140px;
   }
-  @media screen and (min-width: 1536px) {
-    max-width: 1424px;
-  }
 `;
 
 export const Logo = styled.div`
