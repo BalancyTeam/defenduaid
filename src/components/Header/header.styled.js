@@ -5,40 +5,34 @@ export const HeaderStyle = styled.header`
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 56px 16px 0px 16px;
-  gap: 34px;
-  max-width: 360px;
-  /* height: 122px; */
+  padding-bottom: 30px;
+
+  margin-bottom: 80px;
 
   @media screen and (min-width: 768px) {
     max-width: 768px;
-    padding: 56px 40px 0px 40px;
-    gap: 384px;
-    /* height: 80px; */
+    padding-bottom: 0px;
+    margin-bottom: 116px;
   }
   @media screen and (min-width: 1024px) {
     max-width: 1024px;
-    gap: 640px;
+    margin-bottom: 112px;
   }
   @media screen and (min-width: 1280px) {
-    gap: 736px;
-    padding: 56px 120px 0px 120px;
     max-width: 1280px;
+    margin-bottom: 140px;
   }
   @media screen and (min-width: 1536px) {
     max-width: 1424px;
-    padding: 56px 0px 0px;
-    gap: 1044px;
-    /* height: 88px; */
   }
 `;
 
-export const Logo = styled.img`
+export const Logo = styled.div`
   width: 228px;
   height: 34px;
   @media screen and (min-width: 768px) {
     width: 228px;
-    height: 24px;
+    height: 32px;
   }
   @media screen and (min-width: 1024px) {
     width: 228px;
@@ -46,7 +40,7 @@ export const Logo = styled.img`
   }
   @media screen and (min-width: 1280px) {
     width: 228px;
-    height: 24px;
+    height: 25px;
   }
   @media screen and (min-width: 1536px) {
     width: 304px;

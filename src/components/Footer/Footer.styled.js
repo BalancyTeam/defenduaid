@@ -6,6 +6,7 @@ export const FooterStyle = styled.footer`
   justify-content: space-between;
   align-items: flex-end;
   margin-top: 88px;
+  margin-bottom: 32px;
 
   @media screen and (min-width: 768px) {
     max-width: 768px;
@@ -23,31 +24,23 @@ export const FooterStyle = styled.footer`
   }
 `;
 
-export const FooterLogo = styled.img`
-  padding: 16px;
-  padding-left: 16px;
+export const FooterLogo = styled.div`
   width: 150px;
   height: 16px;
 
   @media screen and (min-width: 768px) {
-    padding-left: 40px;
-    padding-bottom: 32px;
     width: 240px;
     height: 24px;
   }
   @media screen and (min-width: 1024px) {
-    padding-left: 40px;
-    padding-bottom: 32px;
     width: 240px;
     height: 24px;
   }
   @media screen and (min-width: 1280px) {
-    padding-left: 120px;
     width: 240px;
     height: 24px;
   }
   @media screen and (min-width: 1536px) {
-    padding-left: 322px;
     width: 320px;
     height: 32px;
   }
@@ -59,11 +52,13 @@ export const FooterText = styled.p`
   font-weight: 200;
   font-size: 9px;
   line-height: 150%;
-  padding-bottom: 16px;
+
   color: #141414;
   @media screen and (min-width: 768px) {
     font-size: 16px;
-    padding-top: 12px;
-    padding-bottom: 32px;
   }
+`;
+export const Link = styled.a`
+  color: #141414;
+  text-decoration: underline;
 `;
