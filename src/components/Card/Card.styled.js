@@ -1,19 +1,26 @@
+
 import styled from "styled-components";
+import { hoverAnimation } from "../../styles/GlobalStyles";
+
 
 export const CardItem = styled.li`
   display: flex;
   justify-content: space-between;
   flex-direction: column; 
-
   padding: 14px;
   border-radius: ${(p) => p.theme.radii.normal};
   color: ${(p) => p.theme.colors.primary};
   border: 2px solid ${(p) => p.theme.colors.border};
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   & > p:first-of-type {
     padding-bottom: ${(p) => p.theme.space[5]}px;
     font-size: ${(props) => props.theme.fontSizes.xs};
     font-weight: ${(props) => props.theme.fontWeights.ultraLight};
+  }
+
+  :hover, :focus {
+    border: 2px solid #1E1E1E;
   }
 `;
 
@@ -97,8 +104,10 @@ export const Button = styled.a`
   border-radius: ${(p) => p.theme.radii.medium};
   border: none;
 
+
   :hover {
     background: linear-gradient(91.66deg, #E9ACF3 14.96%, #8A56FA 92.43%, #874FF9 112.33%);
+    animation: ${hoverAnimation} 700ms both;
   }
 `;
 
