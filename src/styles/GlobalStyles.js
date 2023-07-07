@@ -1,4 +1,13 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle, keyframes } from "styled-components";
+
+export const hoverAnimation = keyframes`
+  0% {
+    background: #141414;
+  }
+  100% {
+    background: linear-gradient(91.66deg, #E9ACF3 14.96%, #8A56FA 92.43%, #874FF9 112.33%);
+  }
+`
 
 export const GlobalStyles = createGlobalStyle`
 

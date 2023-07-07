@@ -1,9 +1,15 @@
 import styled from "styled-components";
 
+
+
+
+
 export const StyledList = styled.ul`
   display: grid;
   gap: ${(p) => p.theme.space[6]}px;
   grid-template-columns: 1fr;
+
+
 
   @media ${(props) => props.theme.media.tablet} {
     grid-template-columns: repeat(2, 1fr);
@@ -15,3 +21,4 @@ export const StyledList = styled.ul`
     grid-row-gap: 32px;
   }
 `;
+

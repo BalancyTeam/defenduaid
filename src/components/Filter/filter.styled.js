@@ -34,7 +34,7 @@ export const TabItem = styled.li`
   overflow: hidden;
   user-select: none;
   outline: none;
-  transition: 0.15s ease-in-out;
+  transition: 0.3s ease-in-out;
   background: ${(props) =>
     props.active ? theme.colors.secondary : theme.colors.grayPrimary};
   color: ${(props) =>
